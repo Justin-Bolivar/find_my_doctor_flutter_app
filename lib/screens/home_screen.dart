@@ -5,7 +5,7 @@ import '../components/home_screen_navbar.dart';
 import '../components/top_doctors.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  const HomeScreen({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                         text: 'Find',
                       ),
                       TextSpan(
-                          text: 'your Doctor',
+                          text: '  your Doctor',
                           style: Theme.of(context)
                               .textTheme
                               .headlineLarge!

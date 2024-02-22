@@ -34,6 +34,7 @@ class DoctorDetailsScreen extends StatelessWidget {
                 child: SafeArea(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
+                      vertical: 30,
                       horizontal: 30,
                     ),
                     child: Row(
