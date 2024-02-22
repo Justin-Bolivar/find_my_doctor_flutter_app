@@ -18,10 +18,10 @@ class HomeSceenNavbar extends StatelessWidget {
             ),
           ),
         ),
-        Container(
+        const SizedBox(
           width: 36,
           height: 36,
-          child: const CircleAvatar(
+          child: CircleAvatar(
             backgroundImage: NetworkImage(
                 'https://avatars.githubusercontent.com/u/143471181?v=4'),
           ),

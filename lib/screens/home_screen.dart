@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                         text: 'Find',
                       ),
                       TextSpan(
-                          text: ' your Doctor',
+                          text: 'your Doctor',
                           style: Theme.of(context)
                               .textTheme
                               .headlineLarge!

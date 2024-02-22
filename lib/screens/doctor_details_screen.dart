@@ -284,7 +284,7 @@ class DoctorDetailsScreen extends StatelessWidget {
                       ),
                       child: Center(
                         child: Text(
-                          'Make an Appoinment',
+                          'Add an Appoinment to Cart',
                           style: Theme.of(context)
                               .textTheme
                               .headlineSmall!
