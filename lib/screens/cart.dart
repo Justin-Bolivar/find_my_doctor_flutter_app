@@ -52,10 +52,6 @@ class CartPage extends StatelessWidget {
                 ],
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.only(left: 15),
-              child: TopDoctorList(),
-            ),
             Container(
               height: 56,
               width: MediaQuery.of(context).size.width - 100,
