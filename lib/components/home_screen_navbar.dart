@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg_provider/flutter_svg_provider.dart';
+import '../screens/cart.dart';
 
 class HomeSceenNavbar extends StatelessWidget {
   const HomeSceenNavbar({super.key});
@@ -18,12 +19,20 @@ class HomeSceenNavbar extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(
+        SizedBox(
           width: 36,
           height: 36,
-          child: CircleAvatar(
-            backgroundImage: NetworkImage(
-                'https://avatars.githubusercontent.com/u/143471181?v=4'),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const CartPage()),
+              );
+            },
+            child: const CircleAvatar(
+              backgroundImage: NetworkImage(
+                  'https://avatars.githubusercontent.com/u/143471181?v=4'),
+            ),
           ),
         ),
       ],
